@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#categoryFilter {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul > li {
+  margin-bottom: 15px;
+}
+
+.trip-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trip-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trip-box strong {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.trip-box ul {
+  padding: 0;
+  margin: 0;
+}
+
+.trip-box ul > li {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.trip-list {
+  max-height: 80vh; /* Adjust to fit your layout */
+  overflow-y: auto; /* Enable scrolling */
+}
+.trip-box {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer; /* Indicates clickable items */
+}
+.trip-box:hover {
+  background-color: #f9f9f9; /* Highlight on hover */
+}
